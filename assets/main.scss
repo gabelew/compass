@@ -46,6 +46,7 @@ a:hover {
 since it must be aligned with the content */
 .fa-ul.main-list {
 	margin-left: 0;
+	text-align: center;
 }
 
 /* list icons */
@@ -138,7 +139,8 @@ footer {
 
 	.author-container h1,
 	.logo-container,
-	.tagline-container p {
+	.tagline-container p,
+	.fa-ul.main-list {
 		text-align: right;
 	}
 
