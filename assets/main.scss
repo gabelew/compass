@@ -35,8 +35,8 @@ a:hover {
 }
 
 
-/*** main content list ***/
-.main-list-item {
+/*** nav list ***/
+.nav-item {
 	font-weight: bold;
 	font-size: 1.2em;
 	margin: 0.8em 0;
@@ -44,13 +44,13 @@ a:hover {
 
 /* override the left margin added by font awesome for the main content list,
 since it must be aligned with the content */
-.fa-ul.main-list {
+nav .fa-ul {
 	margin-left: 0;
 	text-align: center;
 }
 
-/* list icons */
-.main-list-item-icon {
+/* nav icons */
+.nav-item-icon {
 	width: 36px;
 	color: $text-color;
 }
@@ -140,7 +140,7 @@ footer {
 	.author-container h1,
 	.logo-container,
 	.tagline-container p,
-	.fa-ul.main-list {
+	nav .fa-ul {
 		text-align: right;
 	}
 
