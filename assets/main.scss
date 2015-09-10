@@ -83,7 +83,7 @@ nav .fa-ul {
 .tagline-container p {
 	font-size: 1.3em;
 	text-align: center;
-	margin-bottom: 2em;
+	margin: 0 0 1em 0;
 }
 
 /******/
@@ -94,6 +94,16 @@ hr {
 	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
 	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
 	background-image: -o-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
+}
+
+.content {
+	h2 {
+		text-align: center;
+	}
+	.list li {
+		list-style-type: lower-roman;
+		margin-bottom: 0.5em;
+	}
 }
 
 /*** footer ***/
@@ -135,6 +145,15 @@ footer {
 		float: left;
 		width: 46%;
 		text-align: right;
+		padding-right: 6em;
+	}
+
+	.content {
+		padding-top: 1em;
+
+		h2 {
+			text-align: left;
+		}
 	}
 
 	.author-container h1,
